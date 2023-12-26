@@ -32,29 +32,21 @@ body {
 }
 
 .form-group {
-  border: 1px solid #ccc;
-  border-radius: 5px;
   padding-top: 0.2rem;
   transition: 0.4s;
 }
 .form-control {
-  padding: 0.2rem 0.8rem;
+  padding: 0.8rem 1.2rem;
   outline: none;
-
-  border: 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
   transition: 0.4s;
-  width: 100%;
 }
 
-.form-group:has(.btn) {
-  border: 0;
-  padding: 0;
-}
-.form-group:has(.form-control:is(:hover, :focus)) {
+.form-control:is(:hover, :focus) {
   border-color: green;
   border-width: 1.5px;
 }
-
 .btn {
   padding: 0.8rem 1.2rem;
   background-color: transparent;
